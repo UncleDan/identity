@@ -21,6 +21,11 @@
   status = 301
   force = true
 [[redirects]]
+  from = "https://www-lolli-cloud.netlify.app/*"
+  to = "https://www.lolli.cloud/:splat"
+  status = 301
+  force = true
+[[redirects]]
   from = "https://daniele-lolli-uncledan-identity.netlify.app/*"
   to = "https://www.lolli.cloud/:splat"
   status = 301
